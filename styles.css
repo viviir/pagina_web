@@ -1,0 +1,72 @@
+/* Estilos generales *//* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F8FF; /* Fondo general claro */
+}
+
+header {
+    background-color: #B0E0E6; /* Azul claro */
+    color: #010101;
+    padding: 20px;
+    text-align: center; /* Centrar texto en el encabezado */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centrar la navegación */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #010101; /* Color oscuro para contraste */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayar enlaces al pasar el cursor */
+}
+
+main {
+    padding: 20px;
+    background-color: #FAFAD2; /* Fondo principal de un color claro */
+    text-align: center; /* Centrar contenido */
+}
+
+/* Sección para una imagen grande al final de la página */
+#final-image {
+    background-color: #FFFAF0; /* Fondo claro para la sección de la imagen */
+    padding: 50px 0;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+#final-image img {
+    max-width: 90%; /* Imagen ocupa el 90% del ancho del contenedor */
+    height: auto;
+    border: 2px solid #B0E0E6; /* Borde azul claro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para mejorar la apariencia */
+}
+
+footer {
+    background-color: #E6E6FA; /* Lavanda claro */
+    color: #010101;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos específicos para cada sección */
+/* Puedes agregar estilos específicos para cada sección aquí */
